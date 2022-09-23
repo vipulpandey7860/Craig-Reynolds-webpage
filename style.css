@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Gilory;
+    src: url("./Assets/Fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+    font-family: voyage;
+    src: url("./Assets/Fonts/Voyage.ttf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +36,7 @@ body {
 #first h1 {
     position: absolute;
     text-align: center;
-    font-size: 340px;
+    font-size: 330px;
     left: 50%;
     transform: translate(-50%, 0);
     font-weight: 100;
